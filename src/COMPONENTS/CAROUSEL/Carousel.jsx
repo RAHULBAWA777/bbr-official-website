@@ -9,7 +9,7 @@ const Carousel = () => {
 
 
             {ImageData.map((images, index) => (
-                <div className='item' style={{backgroundColor:'red', height:'100vh'}}>      
+                <div className='item' style={{backgroundColor:'red', height:'100vh'}} key={index}>      
                 <div className="pics" key={index} style={{backgroundColor:'yellow', height:'100vh', width:'100%'}}>{(<img src={images.image} alt='pic' style={{backgroundColor:'yellow', height:'100vh', width:'100%'}} />)}</div>
                 </div>
             ))}

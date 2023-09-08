@@ -7,7 +7,7 @@ const VenturesList = () => {
         <>
             <div className='venturesMainDiv'>
                 <span className='span2'>Backbenchers Realty Pvt Ltd<br /></span>
-                <span className='span3'><b>Our Projects</b></span><br /><img src={Leaf} alt /> <br /><br /><br /><br />
+                <span className='span3'><b>Our Projects</b></span><br /><img src={Leaf} alt='leaf' /> <br /><br /><br /><br />
                 {/*######################################################################                                CARDS */}
                 <div className='venturesListCards'>
 

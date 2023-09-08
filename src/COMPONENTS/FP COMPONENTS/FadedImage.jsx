@@ -11,7 +11,7 @@ const FadedImage = () => {
                     <div className='blurDivInner'>
                         <span className='span2'>Backbenchers Realty Pvt Ltd<br /></span>
                         <span className='span3'><b>Why Us?</b></span><br />
-                        <img src={Leaf} alt /><br /><br /><br />
+                        <img src={Leaf} alt='leaf' /><br /><br /><br />
                         <p>paragraph.</p>
                     </div>
                 </div>
