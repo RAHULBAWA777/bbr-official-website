@@ -5,11 +5,13 @@ import CompletedVenturesList from './FP COMPONENTS/CompletedVenturesList.jsx'
 import Experience from './FP COMPONENTS/Experience.jsx'
 import FadedImage from './FP COMPONENTS/FadedImage.jsx'
 import VenturesList from './FP COMPONENTS/VenturesList.jsx'
+import Services from './SERVICES/Services'
 
 const FRONTPAGE = () => {
   return (
     <>
     <img className='bgImage' src='https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_640.jpg' alt='backgroundImage'/>
+    <Services/>
     <About/>
     <Experience/>
     <VenturesList/>

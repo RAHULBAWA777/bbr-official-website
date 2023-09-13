@@ -1,0 +1,18 @@
+.arrowdown-wrapper {
+    position: relative;
+   
+}
+
+.carousel-banner {
+    z-index: 2;
+    /* background-color: aqua; */
+    color: aliceblue;
+    width: fit-content;
+    text-align: center;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+    font-family: 'Oswald', sans-serif;
+}

@@ -1,0 +1,32 @@
+.pad {
+    padding: 4rem;
+}
+
+#services-container {
+    background-color: rgb(192, 211, 211);
+
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+    padding: 2rem;
+}
+
+.service {
+    background-color: bisque;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.service>img {
+    width: 8rem;
+}
+h3{
+    margin: 15px 0;
+}
